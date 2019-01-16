@@ -8,20 +8,31 @@
       <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
+        <span itemscope itemtype="http://schema.org/Person" >
       <h1 class="main-title">
-        Sven Hoeger, <span>M. Sc.</span>
+          <span itemprop="name">
+            <span itemprop="givenName">Sven</span>
+            <span itemprop="familyName">Hoeger</span></span>,
+          <span itemprop="honorificSuffix" id="education-level">
+            M. Sc.</span>
+
       </h1>
-      <h2 class="sub-title">
-        Ecologic Restoration Specialist
+      <h2 class="sub-title" itemprop ="jobTitle">
+        <span itemprop="hasOccupation">
+          Specialist</span>,
+        <span itemprorp="knowsAbout">
+          Ecological Restoration
+        </span>
       </h2>
       <div class="contact-info">
         <div class="email">
-          <a href="mailto:sven@svenhoeger.com">sven@svenhoeger.com</a>
+          <a href="mailto:sven@svenhoeger.com" itemprop="email">sven@svenhoeger.com</a>
         </div>
         <div class="phone">
-          <a href="tel:9144260897">914-426-0897</a>
+          <a href="tel:9144260897" itemprop="telephone">914-426-0897</a>
         </div>
       </div>
+      </span>
       <div class="im1">
         <img  id="i1"
               alt="BB Stream. Gaze down a calm, glassy stream, with riverbank that needs to be restored. The sky and trees are reflected in the water."
