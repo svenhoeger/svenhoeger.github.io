@@ -44,7 +44,7 @@ em, i {
 a img {
   border: none;
 }
-span {
+#education-level {
   opacity: 0.9;
   font-style: italic;
   font-weight: lighter;
